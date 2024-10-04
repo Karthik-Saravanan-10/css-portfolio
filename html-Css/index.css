@@ -1,0 +1,75 @@
+body{
+
+    background-color: #FFFFFF;
+    font-family:"Arial Rounded MT Bold", Arial, Helvetica, sans-serif;   
+}
+table{
+    width: 100%;
+    border-spacing: 15px;
+}
+
+
+
+td,tr{
+    /* margin: 50px; */
+    border: 0;
+}
+
+.profile{
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    top: 0;
+    
+}
+
+.img{
+    width: 100%;
+}
+
+#profile{
+    padding: 10px   ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 20px 20px 100px grey; */
+}
+.progress{
+    background-color: rgb(233, 231, 231);
+    border-radius: 10px;
+}
+
+.pro-con{
+    background-color: #00766e;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.kk{
+    position: absolute;
+    top: 85%;
+    color: aliceblue;
+}
+/* below experience */
+#experience{
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 15px;
+}
+
+.float{
+    float: left;
+    word-spacing: normal;
+}
+
+/* below education */
+#education{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer{
+    line-height: 10px;
+    text-align:center;
+    padding:5px;
+    color: white;
+    background-color: #00766e;
+}
